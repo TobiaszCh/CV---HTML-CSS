@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     background-color: white;
 }
 
@@ -15,11 +15,20 @@ h2 {
     font-size: 14px;
 } 
 
+p {
+    font-size: 10px;
+}
+
+
+li {
+    font-size: 10px;
+}
+
 header, section {
     background-color: rgb(148, 206, 222);
     margin: auto;
-    padding: 10px 40px 10px 40px;
-    width: 960px;
+    padding: 5px 20px 5px 20px;
+    width: 600px;
     
 }
 
@@ -29,13 +38,16 @@ header {
     justify-content: space-between;
 } 
 
-header address ul li{
+.address-list{
     padding: 0px 0px 5px 0px;
     list-style: none;
 }
 
-header address ul img {
+.address-icon {
     height: 16px;
     width: 16px;
     margin-right: 5px;
+    background-color: brown;
+    border-radius: 20%;
+    vertical-align: middle;
 }
